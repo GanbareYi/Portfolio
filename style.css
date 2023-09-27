@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box; /* Set all elements on the page to include the padding and border in an element's total width and height.*/
+}
+
+body {
+  background-color: #eeeedd;
+}
+
+header{
+  background-color: #807094;
+}
+
+h1 {
+  margin: 0;
+  color: #f7f5f2;
+  font-family: Verdana;
+  font-size: 50px;
+  text-align: center;
+  padding: 60px 0px 20px 20px;
+}
+
+h2 {
+  margin: 0;
+  color: #f7f5f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;  
+  padding: 0 0 20px 20px;
+}
+
+footer {
+  background-color: #807094;
+  margin: 200px 0 0 0;
+  padding: 20px 0;
+}
+
+footer > p {
+  color: #f7f5f2;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: #604f71;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+img {
+  /* Change display property from inline to block. */ 
+  display: block; 
+  /* set the margin property to auto to horizontally center the element within its container.*/
+  margin: auto; 
+  padding-top: 20px;
+  max-width: 33.33%;
+}
+
+article {
+  margin: auto;
+  max-width: 33.33%;
+}
+
+.intro
+.about
+.contact {
+  padding: 0 20px;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none; /* Remove the underline of the text */
+}
+
+a:link,
+a:active {
+  color: darkgreen;
+}
+a:hover {
+  color: #483D8B;
+}
+
+hr {
+  height:2px;
+  border-width:0;
+  background-color:gray
+}
