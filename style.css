@@ -71,8 +71,9 @@ a {
   text-decoration: none; /* Remove the underline of the text */
 }
 
-a:link,
-a:active {
+a:link, 
+a:visited /* Explicitly set :visited to avoid overwritten by the browser with a default "visited" link color */
+{
   color: darkgreen;
 }
 a:hover {
