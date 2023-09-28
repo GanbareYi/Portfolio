@@ -66,7 +66,7 @@ img {
 }
 
 /* Set the display of <div> tag in <main> tag. */
-div.info {
+.info {
   margin: auto;
   max-width: 33.33%;
 }
