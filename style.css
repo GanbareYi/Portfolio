@@ -1,15 +1,20 @@
+/* The stylesheet specific to this portfolio website. */
 * {
-  box-sizing: border-box; /* Set all elements on the page to include the padding and border in an element's total width and height.*/
+  /* Set all elements on the page to include the padding and border in an element's total width and height.*/
+  box-sizing: border-box; 
 }
 
 body {
+  /* Set webpage's background color. */
   background-color: #eeeedd;
 }
 
 header{
+  /* Set background color of the header where my name and title were displayed to purple. */
   background-color: #807094;
 }
 
+/* Style the text in header. Align the text at center. Use bigger font size. */ 
 h1 {
   margin: 0;
   color: #f7f5f2;
@@ -19,6 +24,7 @@ h1 {
   padding: 60px 0px 20px 20px;
 }
 
+/* Style the text in header. Aligning the text at center. Use relatively smaller font size*/ 
 h2 {
   margin: 0;
   color: #f7f5f2;
@@ -28,18 +34,21 @@ h2 {
   padding: 0 0 20px 20px;
 }
 
+/* Style footer of the webpage. */
 footer {
   background-color: #807094;
   margin: 200px 0 0 0;
   padding: 20px 0;
 }
 
+/* Set font-face, font-color, and alignment of the text in footer. */
 footer > p {
   color: #f7f5f2;
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
+/* Style the title for "intro", "about", and "contact" section. */
 h3 {
   color: #604f71;
   font-family: Arial, Helvetica, sans-serif;
@@ -47,19 +56,22 @@ h3 {
 }
 
 img {
-  /* Change display property from inline to block. */ 
+  /* Change the image's display property from inline to block. */ 
   display: block; 
-  /* set the margin property to auto to horizontally center the element within its container.*/
+  /* Set the margin property to auto to horizontally center the element within its container.*/
   margin: auto; 
   padding-top: 20px;
+  /* Set max-width to 1/3 of the webpage in order to auto-sizing the photo in small browser windows. */
   max-width: 33.33%;
 }
 
-article {
+/* Set the display of <div> tag in <main> tag. */
+div.info {
   margin: auto;
   max-width: 33.33%;
 }
 
+/* Define text align styling and formatting to "intro", "about", and "contact" section. */ 
 .intro
 .about
 .contact {
@@ -67,8 +79,9 @@ article {
   text-align: justify;
 }
 
+/* Remove the underline of links. */
 a {
-  text-decoration: none; /* Remove the underline of the text */
+  text-decoration: none; 
 }
 
 a:link, 
@@ -76,10 +89,13 @@ a:visited /* Explicitly set :visited to avoid overwritten by the browser with a 
 {
   color: darkgreen;
 }
+
+/* Set the color to #483D8B when the mouse over links. */
 a:hover {
   color: #483D8B;
 }
 
+/* Style the horizontal ruler. */
 hr {
   height:2px;
   border-width:0;
