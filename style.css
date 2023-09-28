@@ -65,19 +65,18 @@ img {
   max-width: 33.33%;
 }
 
-/* Set the display of <div> tag in <main> tag.
-.info {
-  margin: auto;
-  max-width: 33.33%;
-}
-*/
-
 /* Define text align styling and formatting to "intro", "about", and "contact" section. */ 
 .intro
 .about
 .contact {
   padding: 0 20px;
   text-align: justify;
+}
+
+/* Set the display of <div> tag in <main> tag. */
+.info {
+  margin: auto;
+  max-width: 33.33%;
 }
 
 /* Remove the underline of links. */
