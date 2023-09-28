@@ -74,7 +74,7 @@ img {
 }
 
 /* Set the display of <div> tag in <main> tag. */
-.info {
+div {
   margin: auto;
   max-width: 33.33%;
 }
